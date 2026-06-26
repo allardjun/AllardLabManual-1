@@ -1,5 +1,8 @@
 :html_sidebars: {}
 
+.. .. contents:: 
+..    :local:
+
 How I organize science projects in 2025
 #######################################
 
