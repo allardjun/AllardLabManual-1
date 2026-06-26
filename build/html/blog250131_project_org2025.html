@@ -6,20 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>How I organize science projects in 2025 &#8212; The Allard Lab Manual  documentation</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
-    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
-    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=039e1c02" />
     <script src="_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
-
   
-  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
 
   </head><body>
   
@@ -32,13 +30,13 @@
             
   <section id="how-i-organize-science-projects-in-2025">
 <h1>How I organize science projects in 2025<a class="headerlink" href="#how-i-organize-science-projects-in-2025" title="Link to this heading">¶</a></h1>
-<p><em>by Jun Allard, 2025-01-31</em></p>
+<p><em>by Jun Allard, 2025-01-31, updated 2026-06-21</em></p>
 <p>… or, “How to be a Scientist in these easy steps!”</p>
-<p>None of this is presprictive nor do I think it really optimal, here.
+<p>None of this is prescriptive nor do I think it really optimal, here.
 Although, I do prescribe some things for my team, which are an intersecting set with items below.</p>
 <section id="directory-structure">
 <h2>Directory structure<a class="headerlink" href="#directory-structure" title="Link to this heading">¶</a></h2>
-<p>For a new project, it immediately lives in six places:</p>
+<p>For a new project, it immediately lives in six places (the blank-line-separated groups below):</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ReadCube</span><span class="o">/</span><span class="n">project_tag</span>
 
 <span class="n">GoogleDrive</span><span class="o">/</span><span class="n">Notability</span><span class="o">/</span><span class="n">project_tag</span>
@@ -95,9 +93,9 @@ The others are backed up to the cloud, e.g., Allard Lab Google Drive.</p>
 <h2>Chronological timeline<a class="headerlink" href="#chronological-timeline" title="Link to this heading">¶</a></h2>
 <ol class="arabic simple">
 <li><p>An idea, a dataset, a scientific question, a cool/fun puzzle and hypothesis</p></li>
-<li><p>Coder at work! Part I: Before the first narrative</p></li>
+<li><p>Coder at work! Part 1: Before the first narrative</p></li>
 <li><p>The first narrative</p></li>
-<li><p>Coder at work! Part II: After the first narrative</p></li>
+<li><p>Coder at work! Part 2: After the first narrative</p></li>
 <li><p>Figures and captions</p></li>
 <li><p>Big literature review</p></li>
 <li><p>Forking latex repository</p></li>
@@ -106,8 +104,7 @@ The others are backed up to the cloud, e.g., Allard Lab Google Drive.</p>
 <li><p>Revisions</p></li>
 </ol>
 <p>… More accurately, it looks like this:</p>
-<a class="reference external image-reference" href="_images/figProjectTimeline.png"><img alt="Chronological timeline" src="_images/figProjectTimeline.png" />
-</a>
+<a class="reference external image-reference" href="_images/figProjectTimeline.png"><img alt="Chronological timeline" src="_images/figProjectTimeline.png" /></a>
 </section>
 <section id="an-idea-or-cool-hypothesis-literature">
 <h2>An idea or cool hypothesis, literature<a class="headerlink" href="#an-idea-or-cool-hypothesis-literature" title="Link to this heading">¶</a></h2>
@@ -117,13 +114,12 @@ I never want to hesitate before <em>storing</em> something.</p>
 <p>Make sketches in Notability or equivalent, and a pipeline to easily get these sketches into Illustrator and then the latex repo.
 I find real creative thought happens through sketches.
 As I like to say, “you are spending too much time plotting, not enough time sketching!”
-(which is maybe related to the old addage about “forest for the trees”).</p>
+(which is maybe related to the old adage about “forest for the trees”).</p>
 <p>Literature. Papers on the internet.
 Create a tag/Folder in ReadCube, and use the browser plugin to tag papers as I find them:</p>
-<a class="reference external image-reference" href="_images/figLiterature.png"><img alt="Bibliography" src="_images/figLiterature.png" />
-</a>
+<a class="reference external image-reference" href="_images/figLiterature.png"><img alt="Bibliography" src="_images/figLiterature.png" /></a>
 <p>And then, get both citations and sketches into a tex repo!
-My <a class="reference external" href="JunsLatexRepository">prototype latex repo JunsLatexRepository</a> with a fictitious project called JeanJacket.
+My <a class="reference external" href="https://github.com/allardjun/JunsLatexRepository">prototype latex repo JunsLatexRepository</a> with a fictitious project called JeanJacket.
 One .tex for scratch notes, one for the eventual manuscript (which can wait).
 My favorite <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> which I’ve accumulated over the years.
 GitHub Actions in the <code class="docutils literal notranslate"><span class="pre">.github</span></code> directory will automatically compile the tex into pdf (so far, this is just a parlor trick, I’ve never found it useful).
@@ -153,7 +149,10 @@ After the first narrative, I spend &gt;20% of time and &gt;50% of lines of code 
 <code class="docutils literal notranslate"><span class="pre">rsync</span></code>, <code class="docutils literal notranslate"><span class="pre">ssh-keygen</span></code>,
 a script to organize run outputs,
 scripts that read in custom config files (one for a single local run, for a big hpc run, etc.)…</p>
-<p>Code reproducibility: package management, virtual environments, avoiding “dependency hell”: For Python and Julia, figure this out early! For Matlab, R, and some cases of C, this is less an issue. Remember that code reproducibility is not just about ensuring it works on a different machine in a different time, but also about ensuring it works for a different <em>person</em> (typically that there is tacit knowledge the first author forgot to write down).</p>
+<p>Code reproducibility: package management, virtual environments, avoiding “dependency hell”.
+For Python and Julia, figure this out early!
+For Matlab, R, and some cases of C, this is less an issue.
+Remember that code reproducibility is not just about ensuring it works on a different machine in a different time, but also about ensuring it works for a different <em>person</em> (typically that there is tacit knowledge the first author forgot to write down).</p>
 <p>Python:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="o">-</span><span class="n">m</span> <span class="n">venv</span> <span class="n">venv</span>
 <span class="n">source</span> <span class="n">venv</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">activate</span>
@@ -165,7 +164,7 @@ scripts that read in custom config files (one for a single local run, for a big 
 <span class="n">activate</span> <span class="o">.</span>
 </pre></div>
 </div>
-<p>For every run, it has both a 6-digit date and a <code class="docutils literal notranslate"><span class="pre">run_name</span></code>.
+<p>Every run has both a 6-digit date and a <code class="docutils literal notranslate"><span class="pre">run_name</span></code>.
 For run names, I use <a class="reference external" href="https://chatgpt.com/share/67a96f7d-bf6c-8011-9170-5f729d700599">foods in alphabetical order</a>.
 My students make fun of this, but it is for 2 reasons.
 First has to do with the unknown “question-space dimensionality”. I don’t always know what parameter I’m going to vary for the following run, so naming something <code class="docutils literal notranslate"><span class="pre">different_param_B</span></code> is impossible until I know it was going to be <code class="docutils literal notranslate"><span class="pre">param</span> <span class="pre">B</span></code> that I would want to vary.
@@ -189,8 +188,7 @@ I accept that it’s all going to be redone! As the saying goes, treat your runs
 <p>As I work, I usually have 3 VSCode windows open: the latex repo, the code repo, and the folder where the plots and logs live.
 You can get them to all have a different specified color theme using <code class="docutils literal notranslate"><span class="pre">code-workspace</span></code> files.
 A surprising amount of time is spent “tabbing” to the latex repo window, where I’m constantly taking notes, recording what model equations I’m currently using, etc.</p>
-<a class="reference external image-reference" href="_images/figThreeWindows.png"><img alt="Three-VSCode-Window" src="_images/figThreeWindows.png" />
-</a>
+<a class="reference external image-reference" href="_images/figThreeWindows.png"><img alt="Three-VSCode-Window" src="_images/figThreeWindows.png" /></a>
 <p>How often should you <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span></code>? How to quickly write useful commit messages?
 One trick that helped me think about this cleanly, and make much better commit messages, is a subfolder convention: git branch names can contain a slash, so you can give their names “folders”.
 What you are doing at any one moment fits into a half-dozen categories:
@@ -206,11 +204,11 @@ One notebook should never call something from another notebook; anything reused 
 </section>
 <section id="the-magic-10-key-sentence-moment">
 <h2>The magic 10-key-sentence moment<a class="headerlink" href="#the-magic-10-key-sentence-moment" title="Link to this heading">¶</a></h2>
-<p>There is a magic moment when you can describe the proposed work in 5-15 sentences.
+<p>There is a magic moment when you can describe the proposed work in 5-15 sentences (I call it the “10-sentence” moment for shorthand).
 With this little full-sentence blurb, someone can identify a gap in knowledge and an approach that addressed the gap.
-Early on, before we have the result, we word it as Hypotheses, and later on, the grammer will change, and it will be a Conclusion.
+Early on, before we have the result, we word it as Hypotheses, and later on, the grammar will change, and it will be a Conclusion.
 Reading the 10 sentences <em>standalone</em> should be enough to understand the gap being addressed or new thing being contributed and why it is valuable. To exaggerate slightly: Everything except for validity of results, which goes into the paper.
-It’s not quite an abstract, because it can be longer, have citations, etc., but it has the same approximately five-part structure:</p>
+It’s not quite an abstract, because it can be longer, have citations, etc., but it has the same approximately five-part structure (of approximately 5-15 sentences in length):</p>
 <ol class="arabic simple">
 <li><p>Background and broad question</p></li>
 <li><p>Specific question that we will deliver on</p></li>
@@ -218,12 +216,11 @@ It’s not quite an abstract, because it can be longer, have citations, etc., bu
 <li><p>Results, which are in the form of sentences, not plots</p></li>
 <li><p>Implications</p></li>
 </ol>
-<a class="reference internal image-reference" href="https://preview.redd.it/it-is-possible-to-do-this-in-latex-v0-7fdnco9qa3ge1.png?auto=webp&amp;s=46b3ea51c54f40c2a5ca7bc455d17119e459e224"><img alt="Nature Abstract guide" class="align-center" src="https://preview.redd.it/it-is-possible-to-do-this-in-latex-v0-7fdnco9qa3ge1.png?auto=webp&amp;s=46b3ea51c54f40c2a5ca7bc455d17119e459e224" style="width: 400px;" />
-</a>
+<a class="reference internal image-reference" href="https://preview.redd.it/it-is-possible-to-do-this-in-latex-v0-7fdnco9qa3ge1.png?auto=webp&amp;s=46b3ea51c54f40c2a5ca7bc455d17119e459e224"><img alt="Nature Abstract guide" class="align-center" src="https://preview.redd.it/it-is-possible-to-do-this-in-latex-v0-7fdnco9qa3ge1.png?auto=webp&amp;s=46b3ea51c54f40c2a5ca7bc455d17119e459e224" style="width: 400px;" /></a>
 <p>I try to see the 10 sentences as early as I can.
 Don’t be afraid to write the first one down, and change it later as results and project goals evolve.
-A reason for this is that so many small decisions depend on the 10-key-sentence.
-Poor decisions will come back and bite you, but until you have the 10-sentence narrative, dwelling on these decisions won’t help, meaning good decisions will also come back and bite you!</p>
+A reason for this is that so many small decisions depend on the 10-key-sentence narrative.
+Poor decisions will come back and bite you, but until you have the 10-sentence narrative, you can’t tell the good decisions from the bad ones, so dwelling on them won’t help – which means good decisions will come back and bite you too!</p>
 <p>A good 10-key-sentence summary implies a plan/wishlist for the <strong>Figures and Captions</strong>.</p>
 </section>
 <section id="the-keynote-poster-and-talk-escape-arrow">
@@ -268,7 +265,7 @@ No matter how big the team is, at some point, near peer-review manuscript submis
 <h2>Revisions!<a class="headerlink" href="#revisions" title="Link to this heading">¶</a></h2>
 <p>Triple document structure for Revisions.
 My workflow for resubmissions is as follows. It’s kind of cumbersome but I find it works.
-First, I read everything through and the <strong>wait for a full 24 hours, to let my own emotions cool</strong>.
+First, I read everything through and then <strong>wait for a full 24 hours, to let my own emotions cool</strong>.
 Then, I go through the comments and give every Reviewer comment a code, like <code class="docutils literal notranslate"><span class="pre">Rev1Minor3</span></code>.
 Note this is an opinionated, careful, thought-provoking process in itself. Then, I create three google docs:</p>
 <ul class="simple">
@@ -287,7 +284,7 @@ Note this is an opinionated, careful, thought-provoking process in itself. Then,
 <section id="closing-thoughts">
 <h2>Closing thoughts<a class="headerlink" href="#closing-thoughts" title="Link to this heading">¶</a></h2>
 <ul class="simple">
-<li><p>How do we deal with proprietary/free/open-source/pay software? Should I switch to Inkspace?</p></li>
+<li><p>How do we deal with proprietary/free/open-source/pay software? Should I switch to Inkscape?</p></li>
 <li><p>I use MacOS and Linux. How are things in Microsoft Windows?</p></li>
 <li><p>What are your tricks and tips?</p></li>
 </ul>
@@ -301,11 +298,11 @@ Note this is an opinionated, careful, thought-provoking process in itself. Then,
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &#169;2025, Jun Allard.
+      &copy;2025, Jun Allard.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
-      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
       
       |
       <a href="_sources/blog250131_project_org2025.rst.txt"

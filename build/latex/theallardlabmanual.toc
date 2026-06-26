@@ -2,27 +2,27 @@
 \contentsline {chapter}{\numberline {1}Mission statement}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Peer reviewing}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}The mission of our research group}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Value\sphinxhyphen {}virtue pairs}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Value\sphinxhyphen {}virtue pairs}{4}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Elements of a scientific contribution}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Jun’s paper writing tips and trick}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}How I write papers}{5}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Jun’s Revision process}{5}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Jun’s Revision process}{6}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Writing tips}{6}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Being an effective scientific communicator}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}The elements}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.2}Being an effective scientific communicator}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}The elements}{7}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Approach and gap are of equal importance}{7}{section.2.4}%
-\contentsline {section}{\numberline {2.5}The importance+rigor+time trade\sphinxhyphen {}off}{7}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Jun’s definition of baseline scientific rigor}{8}{section.2.6}%
+\contentsline {section}{\numberline {2.5}The importance+rigor+time trade\sphinxhyphen {}off}{8}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Jun’s definition of baseline scientific rigor}{9}{section.2.6}%
 \contentsline {section}{\numberline {2.7}A pipeline process requiring different skills and mindsets}{9}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Figures!}{9}{section.2.8}%
-\contentsline {section}{\numberline {2.9}The under\sphinxhyphen {}rated power of writing}{9}{section.2.9}%
+\contentsline {section}{\numberline {2.8}Figures!}{10}{section.2.8}%
+\contentsline {section}{\numberline {2.9}The under\sphinxhyphen {}rated power of writing}{10}{section.2.9}%
 \contentsline {section}{\numberline {2.10}External resources}{10}{section.2.10}%
-\contentsline {section}{\numberline {2.11}Getting to scientific quality / rigor}{10}{section.2.11}%
+\contentsline {section}{\numberline {2.11}Getting to scientific quality / rigor}{11}{section.2.11}%
 \contentsline {chapter}{\numberline {3}Coders at Work}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Memorialization and the DevOps strategy}{13}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Upshot}{13}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Internal resources for coder performance}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}When to go full\sphinxhyphen {}on DevOps, and when not to?}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.4}When to go full\sphinxhyphen {}on DevOps, and when not to?}{15}{section.3.4}%
 \contentsline {chapter}{\numberline {4}What is a PhD?}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Advancement and defence}{17}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Advancement tips}{17}{subsection.4.1.1}%
@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {5.1.1}Local machines}{21}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}High\sphinxhyphen {}performance computing: hpc3}{21}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2}AllardLab G Drive}{21}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Resources}{21}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Resources}{22}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Rowland 274}{22}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Activity}{22}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Working with Jun / “A user guide to Jun”}{23}{chapter.6}%
